@@ -143,6 +143,9 @@ function firstTwoLines(){
   const randomIndex3 = Math.floor(Math.random() * fourS.length);
   const line_1B = fourS[randomIndex1];
   const line_1E = fourS[randomIndex2];
+  if (line_1E == line_1B){
+    line_1E = fourS[Math.floor(Math.random() * fourS.length)]
+  };
   const line_2B = fourS[randomIndex3];
   let line_2E = "brother";
 
@@ -152,6 +155,9 @@ function firstTwoLines(){
     if (match) {
         const randomIndex4 = Math.floor(Math.random() * value.length); 
         line_2E = value[randomIndex4];
+      if (line_2E == line_1E){
+          line_2E = value[Math.floor(Math.random() * value.length)]
+        };
         return line_2E;      
     }
   })
