@@ -11,7 +11,8 @@ This repository contains the HTML code for a responsive static webpage. The webp
 - Dynamic content generation
 
 ## Preview
-![Screenshot 2024-01-11 120824](https://github.com/StovenB/Hallelujah-Generator/assets/127547136/2b18d142-3e2a-4f76-a8ba-0e9ab68242d4)
+![Screenshot 2024-05-25 141032](https://github.com/StovenB/Hallelujah-Generator/assets/127547136/645202be-096e-4503-83e5-c15ef1abb1dc)
+
 
 ## Getting Started
 
